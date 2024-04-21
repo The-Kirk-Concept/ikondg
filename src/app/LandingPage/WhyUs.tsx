@@ -3,14 +3,14 @@ import Image from "next/image";
 const WhyUs = () => {
 	return (
 		<div className="bg-primary text-white text-center py-32 px-4 md:px-48 flex flex-col items-center gap-2 relative overflow-hidden">
-			<div className="animate__animated animate__fadeInDown z-20">
+			<div className="animate__animated animate__fadeInDown z-20 text-center">
 				<h2>Why Choose IKON Design Group?</h2>
 				<Image
 					src="/why_choose_hero.png"
 					alt="Vintage interior decoration with chandelier and wall plants"
 					width={800}
 					height={300}
-					className="mb-6"
+					className="mb-6 inline"
 				/>
 				<p>
 					Choosing IKON means partnering with a team that has a finger on the
