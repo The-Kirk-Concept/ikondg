@@ -7,7 +7,7 @@ const WhyUs = () => {
 			<Image
 				src="/why_choose_hero.png"
 				alt="Vintage interior decoration with chandelier and wall plants"
-				width={400}
+				width={800}
 				height={300}
 				className="mb-6"
 			/>
