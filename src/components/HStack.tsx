@@ -17,7 +17,9 @@ const HStack = ({ orientation = "ltr", image, children }: HStackProps) => {
 					}`}
 				/>
 			)}
-			<ContentCard>{children}</ContentCard>
+			<ContentCard className="animate__animated animate__fadeInDown">
+				{children}
+			</ContentCard>
 		</div>
 	);
 };

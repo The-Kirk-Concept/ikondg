@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Abril_Fatface, Lato } from "next/font/google";
 import "./globals.css";
+import "animate.css";
 
 const lato = Lato({
 	weight: ["300", "700"],
