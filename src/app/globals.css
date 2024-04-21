@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: #3F414C;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
@@ -12,9 +12,13 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: #3F414C;
+    --background-end-rgb: #24252e;
   }
+}
+
+html {
+	background-color: #3F414C;
 }
 
 body {
@@ -36,7 +40,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Abril Fatface', serif;
-	text-transform: uppercase;
+	margin-bottom: 16px;
 }
 h1 {
 	font-size: 48px;
@@ -57,4 +61,8 @@ h5 {
 }
 h6 {
 	font-size: 18px;
+}
+p {
+	margin-bottom: 32px;
+	line-height: 28px;
 }

@@ -29,7 +29,7 @@ export default function RootLayout({
 	return (
 		<html
 			lang="en"
-			className={`${lato.className} ${abril.className} scroll-smooth`}
+			className={`${lato.className} ${abril.className} scroll-smooth bg-primary`}
 		>
 			<body>{children}</body>
 		</html>

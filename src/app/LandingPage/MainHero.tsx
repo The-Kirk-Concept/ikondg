@@ -6,7 +6,7 @@ const MainHero = () => {
 	return (
 		<Container className="">
 			<Hero className="bg-landing_hero">
-				<div className="w-1/2 text-center flex flex-col gap-6">
+				<div className="w-1/2 text-center flex flex-col">
 					<h1>{LANDINGPAGE.PAGE_TITLE}</h1>
 					<p className="tracking-widest uppercase text-[18px]">
 						{LANDINGPAGE.PAGE_SUBTITLE}

@@ -3,17 +3,14 @@ import { twMerge } from "tailwind-merge";
 
 export type HeroProps = {
 	children: ReactNode;
-	bgImg?: string;
 	className?: string;
 };
 
-const Hero = ({ children, bgImg, className }: HeroProps) => {
-	console.log("bgImage", bgImg);
+const Hero = ({ children, className }: HeroProps) => {
 	return (
 		<div
 			className={twMerge(
-				`min-h-[80vh] flex flex-col justify-center items-center p-12 relative`,
-				bgImg && `bg-${bgImg} bg-cover bg-no-repeat`,
+				`min-h-[80vh] flex flex-col justify-center items-center p-12 relative bg-cover bg-no-repeat uppercase`,
 				className
 			)}
 		>
