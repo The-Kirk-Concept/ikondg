@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import { Abril_Fatface, Lato } from "next/font/google";
 import "./globals.css";
 
-export const lato = Lato({
+const lato = Lato({
 	weight: ["300", "700"],
 	variable: "--font-lato",
 	subsets: ["latin"],
 	display: "swap",
 });
-export const abril = Abril_Fatface({
+const abril = Abril_Fatface({
 	weight: "400",
 	variable: "--font-abril",
 	subsets: ["latin"],
