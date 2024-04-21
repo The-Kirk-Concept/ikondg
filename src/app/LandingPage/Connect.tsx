@@ -2,7 +2,7 @@ const Connect = () => {
 	return (
 		<div
 			id="connect"
-			className="bg-white py-16 text-primary text-center animate__animated animate__fadeInDown"
+			className="bg-white py-16 px-4 text-primary text-center animate__animated animate__fadeInDown"
 		>
 			<h2>Connect with IKON Design Group</h2>
 			<p>

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const WhyUs = () => {
 	return (
-		<div className="bg-primary text-white text-center py-32 px-96 flex flex-col items-center gap-2 relative">
-			<div className="animate__animated animate__fadeInDown">
+		<div className="bg-primary text-white text-center py-32 px-4 md:px-48 flex flex-col items-center gap-2 relative overflow-hidden">
+			<div className="animate__animated animate__fadeInDown z-20">
 				<h2>Why Choose IKON Design Group?</h2>
 				<Image
 					src="/why_choose_hero.png"
@@ -34,14 +34,14 @@ const WhyUs = () => {
 				alt=""
 				width={300}
 				height={300}
-				className="absolute -top-32 right-16"
+				className="absolute -top-64 md:-top-32 -right-4 md:right-16 z-10 opacity-50"
 			/>
 			<Image
 				src="/squares.png"
 				alt=""
 				width={300}
 				height={300}
-				className="absolute -bottom-32 left-16 rotate-180"
+				className="absolute -bottom-64 md:-bottom-32 -left-8 md:left-16 rotate-180 z-10 opacity-50"
 			/>
 		</div>
 	);

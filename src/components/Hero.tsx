@@ -10,7 +10,7 @@ const Hero = ({ children, className }: HeroProps) => {
 	return (
 		<div
 			className={twMerge(
-				`min-h-[80vh] flex flex-col justify-center items-center p-12 relative bg-cover bg-no-repeat uppercase`,
+				`min-h-[80vh] flex flex-col justify-center items-center p-8 md:p-12 relative bg-cover bg-no-repeat uppercase`,
 				className
 			)}
 		>

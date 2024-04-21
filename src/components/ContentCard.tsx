@@ -8,7 +8,9 @@ export type ContentCardProps = {
 
 const ContentCard = ({ children, className }: ContentCardProps) => {
 	return (
-		<div className={twJoin("flex flex-col justify-center p-24", className)}>
+		<div
+			className={twJoin("flex flex-col justify-center p-8 md:p-24", className)}
+		>
 			{children}
 		</div>
 	);

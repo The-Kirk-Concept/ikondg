@@ -20,7 +20,7 @@ const WhatWeDo = () => {
 				</p>
 			</HStack>
 			<HStack orientation="rtl" image="bg-crafting_contemorary_hero">
-				<h2>What we do</h2>
+				<h2>Crafting Contemporary Sophistication</h2>
 				<p>
 					{`We believe in going the extra mile for our clients. We know every
 					client's needs are unique. Our designers keep these needs in mind when
@@ -28,7 +28,7 @@ const WhatWeDo = () => {
 					resourceful design team that provides contemporary and sophisticated
 					interiors.`}
 				</p>
-				<p className="mb-0">
+				<p>
 					Our work does not stop there. IKON Design Group will either set up or
 					work with a contractor to make sure that everything is in its proper
 					place. We have the know-how to incorporate furnishings, lighting, and

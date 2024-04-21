@@ -9,11 +9,13 @@ export type HStackProps = {
 
 const HStack = ({ orientation = "ltr", image, children }: HStackProps) => {
 	return (
-		<div className={`grid grid-cols-2 justify-center items-center`}>
+		<div
+			className={`grid grid-cols-1 md:grid-cols-2 justify-center items-center`}
+		>
 			{image && (
 				<ContentCard
-					className={`h-full bg-cover  bg-no-repeat overflow-hidden ${image} ${
-						orientation === "ltr" ? "order-first" : "order-last"
+					className={`h-96 md:h-full bg-cover bg-no-repeat overflow-hidden order-first ${image} ${
+						orientation === "rtl" && "md:order-last"
 					}`}
 				/>
 			)}
