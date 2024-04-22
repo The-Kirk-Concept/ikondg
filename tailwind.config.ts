@@ -24,6 +24,7 @@ const config: Config = {
 				crafting_contemorary_hero: "url('/crafting_contemorary_hero.png')",
 				why_choose_hero: "url('/why_choose_hero.png')",
 				squares: "url('/squares.png')",
+				sonya_headshot: "url('/sonya_headshot.png')",
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

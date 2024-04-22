@@ -4,7 +4,7 @@ const WhatWeDo = () => {
 	return (
 		<section className="bg-white text-primary">
 			<HStack orientation="ltr" image="bg-what_we_do_hero">
-				<h2>What we do</h2>
+				<h2>What We Do</h2>
 				<p>
 					{`We believe in going the extra mile for our clients. We know every
 					client's needs are unique. Our designers keep these needs in mind when
