@@ -4,13 +4,13 @@ const WhyUs = () => {
 	return (
 		<div className="bg-primary text-white py-32 px-4 flex flex-col items-center gap-2 relative overflow-hidden">
 			<div className="animate__animated animate__fadeInDown z-20 max-w-[100vw] md:max-w-[70vw]">
-				<div className="flex gap-8">
+				<div className="flex gap-8 md:flex-row flex-col">
 					<Image
 						src="/sonya_headshot.png"
 						alt="Vintage interior decoration with chandelier and wall plants"
 						width={200}
 						height={200}
-						className="mb-6 inline self-start"
+						className="mb-6 inline self-center md:self-start w-full md:w-[250px]"
 					/>
 					<div className="">
 						<h2>Why The IKON Design Group?</h2>
