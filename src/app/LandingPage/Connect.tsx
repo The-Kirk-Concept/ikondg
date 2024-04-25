@@ -14,7 +14,7 @@ const Connect = () => {
 				N. Las Vegas Blvd. 89030
 			</p>
 			<p>
-				<strong>e:</strong> sonyac@IKONdg.com 
+				<strong>e:</strong> info@IKONdesigngroup.com 
 				<br />
 				<strong>o:</strong> 702-801-7682, <strong>c:</strong> 702-768-6681 
 			</p>

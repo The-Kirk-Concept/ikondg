@@ -2,32 +2,37 @@ import Image from "next/image";
 
 const WhyUs = () => {
 	return (
-		<div className="bg-primary text-white text-center py-32 px-4 flex flex-col items-center gap-2 relative overflow-hidden">
-			<div className="animate__animated animate__fadeInDown z-20 text-center max-w-[100vw] md:max-w-[70vw]">
-				<h2>Why Choose The IKON Design Group?</h2>
-				<Image
-					src="/sonya_headshot.png"
-					alt="Vintage interior decoration with chandelier and wall plants"
-					width={300}
-					height={300}
-					className="mb-6 inline"
-				/>
-				<p>
-					Choosing IKON means partnering with a team that has a finger on the
-					pulse of design innovation. We navigate the vast landscape of design
-					options to curate interiors that stand the test of time both in
-					functionality and style. Our expertise prevents costly errors and
-					ensures every design choice is not only aesthetically pleasing but
-					also a sound investment in the long term.
-				</p>
-				<h3>Experience the IKON Difference</h3>
-				<p>
-					{`With IKON Design Group, you're invited to reimagine your space. Here,
+		<div className="bg-primary text-white py-32 px-4 flex flex-col items-center gap-2 relative overflow-hidden">
+			<div className="animate__animated animate__fadeInDown z-20 max-w-[100vw] md:max-w-[70vw]">
+				<div className="flex gap-8">
+					<Image
+						src="/sonya_headshot.png"
+						alt="Vintage interior decoration with chandelier and wall plants"
+						width={200}
+						height={200}
+						className="mb-6 inline self-start"
+					/>
+					<div className="">
+						<h2>Why The IKON Design Group?</h2>
+
+						<p>
+							Choosing IKON means partnering with a team that has a finger on
+							the pulse of design innovation. We navigate the vast landscape of
+							design options to curate interiors that stand the test of time
+							both in functionality and style. Our expertise prevents costly
+							errors and ensures every design choice is not only aesthetically
+							pleasing but also a sound investment in the long term.
+						</p>
+						<h3>Experience the IKON Difference</h3>
+						<p>
+							{`With IKON Design Group, you're invited to reimagine your space. Here,
 				design is an immersive experience, tailored to reflect your personal
 				story and lifestyle. Partner with us and transform your environment into
 				a canvas for life's greatest moments, all with the signature distinction
 				that only IKON can provide.`}
-				</p>
+						</p>
+					</div>
+				</div>
 			</div>
 			<Image
 				src="/squares.png"
