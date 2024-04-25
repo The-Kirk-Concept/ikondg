@@ -12,7 +12,7 @@ const WhyUs = () => {
 						height={200}
 						className="mb-6 inline self-center md:self-start w-full md:w-[250px]"
 					/>
-					<div className="">
+					<div className="text-center md:text-left">
 						<h2>Why The IKON Design Group?</h2>
 
 						<p>
